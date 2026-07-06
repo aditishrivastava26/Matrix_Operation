@@ -94,15 +94,14 @@ else:
     print("thank you for using the program")
     exit()
 
-print("the matrices are:   ")                  
-print("matrix-1:", end=" ")
-for row in x:
-    print(row, end=" ")
-print()
-print("matrix-2:", end=" ")
-for row in y:
-    print(row, end=" ")
-print()
+print("The matrices are:")
+print("Matrix-1\t\tMatrix-2")
+
+for i in range(max(len(x), len(y))):
+    left = str(x[i]) if i < len(x) else ""
+    right = str(y[i]) if i < len(y) else ""
+    print(f"{left:<20} {right}")
+
 #===================variables used for the operations========================================
 rows_x = len(x)
 columns_x = len(x[0])   
