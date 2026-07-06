@@ -29,3 +29,18 @@ Rejecting empty input.
 Rejecting non-integer values.
 Allowing only yes or no responses where required.
 Requesting the user to enter valid data again whenever invalid input is detected.
+
+How the Program Works:
+The program asks the user to enter the number of rows and columns for Matrix 1.
+It validates the input and accepts only valid integers.
+The user enters all elements of Matrix 1.
+The program asks whether another matrix should be added.
+If the user chooses Yes, Matrix 2 is created.
+The program displays both matrices.
+A menu is displayed with the following operations:
+Addition
+Subtraction
+Multiplication
+Exit
+Before performing any operation, the program checks whether the dimensions satisfy the mathematical conditions.
+The result is displayed if the operation is valid; otherwise, an appropriate message is shown.
